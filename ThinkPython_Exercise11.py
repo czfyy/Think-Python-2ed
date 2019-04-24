@@ -25,6 +25,7 @@ def reverse_lookup(d, v):  #逆向查找（通过键值找键）
             return key
     raise ValueError('value does not appear in the dictionary')
 
+
 def invert_dict(d): #以频次为键，字母列表为键值
     inverse = dict()
     for key in d:
